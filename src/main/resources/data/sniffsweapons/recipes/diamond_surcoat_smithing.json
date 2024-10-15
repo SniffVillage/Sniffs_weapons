@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smithing_transform",
   "addition": {
-    "item": "minecraft:leather"
+    "item": "sniffsweapons:patterned_linen"
   },
   "base": {
     "item": "minecraft:diamond_chestplate"

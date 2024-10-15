@@ -47,10 +47,8 @@ public class CustomSmithingTemplateItem extends SmithingTemplateItem {
     private static final ResourceLocation EMPTY_SLOT_HELMET = new ResourceLocation("item/empty_armor_slot_helmet");
     private static final ResourceLocation EMPTY_SLOT_CHESTPLATE = new ResourceLocation("item/empty_armor_slot_chestplate");
     private static final ResourceLocation EMPTY_SLOT_FEATHER = new ResourceLocation(SniffsWeaponsMod.MODID, "item/empty_slot_feather");
-    private static final ResourceLocation EMPTY_SLOT_LEATHER = new ResourceLocation(SniffsWeaponsMod.MODID, "item/empty_slot_leather");
     private static final ResourceLocation EMPTY_SLOT_BONE = new ResourceLocation(SniffsWeaponsMod.MODID, "item/empty_slot_bone");
     private static final ResourceLocation EMPTY_SLOT_INGOT = new ResourceLocation("item/empty_slot_ingot");
-    private static final ResourceLocation EMPTY_SLOT_NUGGET = new ResourceLocation(SniffsWeaponsMod.MODID,"item/empty_slot_nugget");
     private static final ResourceLocation EMPTY_SLOT_LINEN = new ResourceLocation(SniffsWeaponsMod.MODID, "item/empty_slot_linen");
 
     public CustomSmithingTemplateItem(Component p_266834_, Component p_267043_, Component p_267048_, Component p_267278_, Component p_267090_, List<ResourceLocation> p_266755_, List<ResourceLocation> p_267060_) {
@@ -76,7 +74,7 @@ public class CustomSmithingTemplateItem extends SmithingTemplateItem {
                 SURCOAT_ARMOR_TRIM_BASE_SLOT_DESCRIPTION,
                 SURCOAT_ARMOR_TRIM_ADDITIONS_SLOT_DESCRIPTION,
                 List.of(EMPTY_SLOT_CHESTPLATE),
-                List.of(EMPTY_SLOT_LEATHER));
+                List.of(EMPTY_SLOT_LINEN));
     }
 
     public static SmithingTemplateItem createArmorHornedTemplate() {
@@ -109,7 +107,7 @@ public class CustomSmithingTemplateItem extends SmithingTemplateItem {
                 SAMURAI_ARMOR_TRIM_BASE_SLOT_DESCRIPTION,
                 SAMURAI_ARMOR_TRIM_ADDITIONS_SLOT_DESCRIPTION,
                 List.of(EMPTY_SLOT_CHESTPLATE, EMPTY_SLOT_HELMET),
-                List.of(EMPTY_SLOT_NUGGET));
+                List.of(EMPTY_SLOT_INGOT));
     }
 
     public static SmithingTemplateItem createLandsknechtArmorTemplate() {

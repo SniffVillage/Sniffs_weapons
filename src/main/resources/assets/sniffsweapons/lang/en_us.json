@@ -73,10 +73,10 @@
   "item.sniffsweapons.smithing_template.armor_trim.base_slot_description_helm": "Add a helmet",
   "item.sniffsweapons.smithing_template.armor_trim.ingredients_helm": "Feather",
 
-  "item.sniffsweapons.smithing_template.armor_trim.additions_slot_description_surcoat": "Add leather",
+  "item.sniffsweapons.smithing_template.armor_trim.additions_slot_description_surcoat": "Add patterned linen",
   "item.sniffsweapons.smithing_template.armor_trim.applies_to_surcoat": "Chestplate",
   "item.sniffsweapons.smithing_template.armor_trim.base_slot_description_surcoat": "Add a chestplate",
-  "item.sniffsweapons.smithing_template.armor_trim.ingredients_surcoat": "Leather",
+  "item.sniffsweapons.smithing_template.armor_trim.ingredients_surcoat": "Patterned Linen",
 
   "item.sniffsweapons.smithing_template.armor_trim.additions_slot_description_horned": "Add bone",
   "item.sniffsweapons.smithing_template.armor_trim.applies_to_horned": "Helmet",
@@ -91,7 +91,7 @@
   "item.sniffsweapons.smithing_template.armor_trim.additions_slot_description_samurai": "Add gold nugget",
   "item.sniffsweapons.smithing_template.armor_trim.applies_to_samurai": "Chestplate & Helmet",
   "item.sniffsweapons.smithing_template.armor_trim.base_slot_description_samurai": "Add a chestplate or helmet",
-  "item.sniffsweapons.smithing_template.armor_trim.ingredients_samurai": "Gold Nugget",
+  "item.sniffsweapons.smithing_template.armor_trim.ingredients_samurai": "Gold Ingot",
 
   "item.sniffsweapons.smithing_template.armor_trim.additions_slot_description_landsknecht": "Add patterned linen",
   "item.sniffsweapons.smithing_template.armor_trim.applies_to_landsknecht": "Chestplate",
