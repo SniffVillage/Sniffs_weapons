@@ -1,23 +1,12 @@
 package nl.sniffiandros.sniffsweapons.events;
 
-import it.unimi.dsi.fastutil.ints.Int2ObjectMap;
-import net.minecraft.client.model.geom.ModelLayerLocation;
 import net.minecraft.client.particle.AttackSweepParticle;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.world.entity.npc.VillagerProfession;
-import net.minecraft.world.entity.npc.VillagerTrades;
 import net.minecraft.world.item.DyeableLeatherItem;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Items;
-import net.minecraft.world.item.trading.MerchantOffer;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.client.event.RegisterColorHandlersEvent;
 import net.minecraftforge.client.event.RegisterParticleProvidersEvent;
-import net.minecraftforge.event.village.VillagerTradesEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.fml.DistExecutor;
 import net.minecraftforge.fml.common.Mod;
 import nl.sniffiandros.sniffsweapons.SniffsWeaponsMod;
 import nl.sniffiandros.sniffsweapons.particle.BigShockwaveParticle;
@@ -26,10 +15,6 @@ import nl.sniffiandros.sniffsweapons.particle.BowShockwaveParticle;
 import nl.sniffiandros.sniffsweapons.particle.SmallSweepParticle;
 import nl.sniffiandros.sniffsweapons.reg.ItemReg;
 import nl.sniffiandros.sniffsweapons.reg.ParticlesReg;
-
-import java.util.List;
-
-import static nl.sniffiandros.sniffsweapons.SniffsWeaponsMod.MODID;
 
 @Mod.EventBusSubscriber(modid = SniffsWeaponsMod.MODID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class ModEventBusSubscriber {

@@ -6,7 +6,6 @@ import net.minecraft.client.model.HumanoidModel;
 import net.minecraft.client.model.geom.ModelPart;
 import net.minecraft.client.model.geom.PartPose;
 import net.minecraft.client.model.geom.builders.*;
-import net.minecraft.util.Mth;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.item.ItemStack;
@@ -17,13 +16,9 @@ import org.jetbrains.annotations.NotNull;
 
 @OnlyIn(Dist.CLIENT)
 public class ClothedCuirassModel<T extends LivingEntity> extends HumanoidModel<T> {
-    private final ItemStack stack;
-    private final EquipmentSlot slot;
 
     public ClothedCuirassModel(ModelPart root, ItemStack stack, EquipmentSlot slot, LivingEntity entity) {
         super(root);
-        this.stack = stack;
-        this.slot = slot;
     }
 
     public static LayerDefinition createBodyLayer() {
