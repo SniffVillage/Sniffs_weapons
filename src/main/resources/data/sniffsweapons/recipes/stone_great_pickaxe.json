@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "minecraft:stone_pickaxe"
+    },
+    "X": {
+      "tag": "minecraft:stone_tool_materials"
+    },
+    "W": {
+      "item": "sniffsweapons:binding_string"
+    }
+  },
+  "pattern": [
+    "XXX",
+    "XWX",
+    " # "
+  ],
+  "result": {
+    "item": "sniffsweapons:stone_great_pickaxe"
+  }
+}

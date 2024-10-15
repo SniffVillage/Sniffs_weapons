@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_linen": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "sniffsweapons:patterned_linen"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_linen"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "sniffsweapons:tellerbarret"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "sniffsweapons:patterned_linen"
+  },
+  "base": {
+    "item": "minecraft:netherite_chestplate"
+  },
+  "result": {
+    "item": "sniffsweapons:clothed_netherite_cuirass"
+  },
+  "template": {
+    "item": "sniffsweapons:landsknecht_armor_trim_smithing_template"
+  }
+}

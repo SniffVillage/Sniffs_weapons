@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "minecraft:bow"
+    },
+    "X": {
+      "tag": "minecraft:planks"
+    },
+    "W": {
+      "item": "sniffsweapons:binding_string"
+    }
+  },
+  "pattern": [
+    "WXX",
+    "X# ",
+    "X  "
+  ],
+  "result": {
+    "item": "sniffsweapons:great_bow"
+  }
+}

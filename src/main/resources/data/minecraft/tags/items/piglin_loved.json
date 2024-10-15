@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "sniffsweapons:golden_great_sword",
+    "sniffsweapons:golden_great_axe",
+    "sniffsweapons:golden_great_pickaxe",
+    "sniffsweapons:golden_naginata",
+    "sniffsweapons:golden_helm",
+    "sniffsweapons:golden_surcoat",
+    "sniffsweapons:plated_golden_chestplate",
+    "sniffsweapons:golden_horned_helm",
+    "sniffsweapons:golden_kabuto",
+    "sniffsweapons:golden_do",
+    "sniffsweapons:clothed_golden_cuirass"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "great_sword_hit": {
+    "subtitle": "subtitle.sniffsweapons.great_sword_hit",
+    "sounds": [
+      "sniffsweapons:great_sword_hit"
+    ]
+  },
+  "great_sword_critical": {
+    "subtitle": "subtitle.sniffsweapons.great_sword_critical",
+    "sounds": [
+      "sniffsweapons:great_sword_critical"
+    ]
+  },
+  "great_axe_slam": {
+    "subtitle": "subtitle.sniffsweapons.great_axe_slam",
+    "sounds": [
+      "sniffsweapons:great_axe_slam"
+    ]
+  },
+  "great_axe_hit": {
+    "subtitle": "subtitle.sniffsweapons.great_axe_hit",
+    "sounds": [
+      "sniffsweapons:great_axe_hit"
+    ]
+  },
+  "great_pickaxe_slam": {
+    "subtitle": "subtitle.sniffsweapons.great_pickaxe_slam",
+    "sounds": [
+      "sniffsweapons:great_pickaxe_slam"
+    ]
+  },
+  "great_pickaxe_hit": {
+    "subtitle": "subtitle.sniffsweapons.great_pickaxe_hit",
+    "sounds": [
+      "sniffsweapons:great_pickaxe_hit"
+    ]
+  },
+  "great_pickaxe_block": {
+    "subtitle": "subtitle.sniffsweapons.great_pickaxe_block",
+    "sounds": [
+      "sniffsweapons:great_pickaxe_block"
+    ]
+  },
+  "great_pickaxe_withdraw": {
+    "subtitle": "subtitle.sniffsweapons.great_pickaxe_withdraw",
+    "sounds": [
+      "sniffsweapons:great_pickaxe_withdraw"
+    ]
+  },
+  "great_pickaxe_draw": {
+    "subtitle": "subtitle.sniffsweapons.great_pickaxe_draw",
+    "sounds": [
+      "sniffsweapons:great_pickaxe_draw"
+    ]
+  },
+  "naginata_sweep": {
+    "subtitle": "subtitle.sniffsweapons.naginata_sweep",
+    "sounds": [
+      "sniffsweapons:naginata_sweep_0",
+      "sniffsweapons:naginata_sweep_1",
+      "sniffsweapons:naginata_sweep_2",
+      "sniffsweapons:naginata_sweep_3",
+      "sniffsweapons:naginata_sweep_4",
+      "sniffsweapons:naginata_sweep_5",
+      "sniffsweapons:naginata_sweep_6"
+    ]
+  }
+}

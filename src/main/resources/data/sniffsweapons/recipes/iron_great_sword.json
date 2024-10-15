@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "minecraft:iron_sword"
+    },
+    "X": {
+      "item": "minecraft:iron_ingot"
+    },
+    "W": {
+      "item": "sniffsweapons:binding_string"
+    }
+  },
+  "pattern": [
+    " XX",
+    "XWX",
+    "#X "
+  ],
+  "result": {
+    "item": "sniffsweapons:iron_great_sword"
+  }
+}

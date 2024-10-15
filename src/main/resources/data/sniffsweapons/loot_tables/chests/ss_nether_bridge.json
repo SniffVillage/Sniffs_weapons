@@ -1,0 +1,100 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 16
+        },
+        {
+          "type": "minecraft:item",
+          "name": "sniffsweapons:horned_armor_trim_smithing_template"
+        }
+      ],
+      "rolls": 1
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 16
+        },
+        {
+          "type": "minecraft:item",
+          "name": "sniffsweapons:plated_armor_trim_smithing_template"
+        }
+      ],
+      "rolls": 1
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 16
+        },
+        {
+          "type": "minecraft:item",
+          "name": "sniffsweapons:samurai_armor_trim_smithing_template"
+        }
+      ],
+      "rolls": 1
+    },
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 7.0,
+        "min": 1.0
+      },
+
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "sniffsweapons:patterned_linen",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 20
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 2.0,
+        "min": 1.0
+      },
+
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 16.0,
+                "min": 9.0
+              },
+              "treasure": true
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{color:13915937}}"
+            }
+          ],
+          "name": "sniffsweapons:tellerbarret",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 20
+        }
+      ]
+    }
+  ]
+}

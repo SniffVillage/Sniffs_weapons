@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "minecraft:diamond_axe"
+    },
+    "X": {
+      "item": "minecraft:diamond"
+    },
+    "W": {
+      "item": "sniffsweapons:binding_string"
+    }
+  },
+  "pattern": [
+    "XXX",
+    "XW ",
+    "X# "
+  ],
+  "result": {
+    "item": "sniffsweapons:diamond_great_axe"
+  }
+}

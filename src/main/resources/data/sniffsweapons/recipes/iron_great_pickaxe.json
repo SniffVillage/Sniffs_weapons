@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "minecraft:iron_pickaxe"
+    },
+    "X": {
+      "item": "minecraft:iron_ingot"
+    },
+    "W": {
+      "item": "sniffsweapons:binding_string"
+    }
+  },
+  "pattern": [
+    "XXX",
+    "XWX",
+    " # "
+  ],
+  "result": {
+    "item": "sniffsweapons:iron_great_pickaxe"
+  }
+}

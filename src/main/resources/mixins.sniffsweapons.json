@@ -1,0 +1,23 @@
+{
+  "minVersion": "0.8",
+  "required": true,
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "mixins.sniffsweapons.refmap.json",
+  "package": "nl.sniffiandros.sniffsweapons.mixin",
+  "mixins": [
+    "DamageEnchantmentMixin",
+    "LivingEntityMixin",
+    "MobMixin",
+    "PiglinBruteMixin",
+    "PiglinMixin",
+    "PlayerMixin",
+    "WitherSkeletonMixin"
+  ],
+  "client": [
+    "client.HumanoidModelMixin",
+    "client.ItemRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

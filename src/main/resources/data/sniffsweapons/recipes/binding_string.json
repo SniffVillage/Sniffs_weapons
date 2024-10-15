@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "minecraft:string"
+    },
+    "X": {
+      "tag": "minecraft:wooden_slabs"
+    }
+  },
+  "pattern": [
+    "#X#",
+    "###",
+    "#X#"
+  ],
+  "result": {
+    "item": "sniffsweapons:binding_string",
+    "count": 3
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "entries": [
+    "sniffsweapons:bastion_treasure_modifier",
+    "sniffsweapons:nether_portal_modifier",
+    "sniffsweapons:end_city_treasure_modifier",
+    "sniffsweapons:village_armorer_modifier",
+    "sniffsweapons:nether_fortress_modifier",
+    "sniffsweapons:pillager_outpost_modifier",
+    "sniffsweapons:zombie_modifier",
+    "sniffsweapons:pillager_modifier",
+    "sniffsweapons:wither_skeleton_modifier"
+  ]
+}

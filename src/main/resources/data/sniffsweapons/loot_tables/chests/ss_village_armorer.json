@@ -1,0 +1,104 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 1.0,
+        "min": 0.0
+      },
+
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "sniffsweapons:iron_great_sword",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "sniffsweapons:iron_naginata",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "sniffsweapons:iron_great_axe",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "sniffsweapons:iron_great_pickaxe",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "sniffsweapons:iron_surcoat",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "sniffsweapons:iron_helm",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 2.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "sniffsweapons:helm_armor_trim_smithing_template",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 2.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "sniffsweapons:surcoat_armor_trim_smithing_template",
+          "weight": 7
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 2.0,
+        "min": 1.0
+      },
+
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 2.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "sniffsweapons:binding_string",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 15
+        }
+      ]
+    }
+  ]
+}

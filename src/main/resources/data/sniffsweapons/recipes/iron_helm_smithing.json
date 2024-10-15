@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:feather"
+  },
+  "base": {
+    "item": "minecraft:iron_helmet"
+  },
+  "result": {
+    "item": "sniffsweapons:iron_helm"
+  },
+  "template": {
+    "item": "sniffsweapons:helm_armor_trim_smithing_template"
+  }
+}

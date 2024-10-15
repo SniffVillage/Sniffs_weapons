@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "minecraft:wooden_axe"
+    },
+    "X": {
+      "tag": "minecraft:planks"
+    },
+    "W": {
+      "item": "sniffsweapons:binding_string"
+    }
+  },
+  "pattern": [
+    "XXX",
+    "XW ",
+    "X# "
+  ],
+  "result": {
+    "item": "sniffsweapons:wooden_great_axe"
+  }
+}

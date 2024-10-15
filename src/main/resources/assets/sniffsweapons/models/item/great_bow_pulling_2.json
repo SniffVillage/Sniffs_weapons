@@ -1,0 +1,19 @@
+{
+  "parent": "minecraft:item/bow",
+  "loader": "forge:separate_transforms",
+  "base": {
+    "parent": "sniffsweapons:handheld/great_bow_handheld",
+    "textures": {
+      "layer0": "sniffsweapons:item/great_bow_pulling_2"
+    }
+  },
+
+  "perspectives": {
+    "gui": {
+      "parent": "minecraft:item/generated",
+      "textures": {
+        "layer0": "sniffsweapons:item/great_bow_gui_pulling_2"
+      }
+    }
+  }
+}

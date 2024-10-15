@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:netherite_ingot"
+  },
+  "base": {
+    "item": "sniffsweapons:clothed_diamond_cuirass"
+  },
+  "result": {
+    "item": "sniffsweapons:clothed_netherite_cuirass"
+  },
+  "template": {
+    "item": "minecraft:netherite_upgrade_smithing_template"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_binding_string": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "sniffsweapons:binding_string"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_binding_string"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "sniffsweapons:wooden_great_sword",
+      "sniffsweapons:stone_great_sword",
+      "sniffsweapons:golden_great_sword",
+      "sniffsweapons:iron_great_sword",
+      "sniffsweapons:diamond_great_sword",
+
+      "sniffsweapons:wooden_great_axe",
+      "sniffsweapons:stone_great_axe",
+      "sniffsweapons:golden_great_axe",
+      "sniffsweapons:iron_great_axe",
+      "sniffsweapons:diamond_great_axe",
+
+      "sniffsweapons:wooden_great_pickaxe",
+      "sniffsweapons:stone_great_pickaxe",
+      "sniffsweapons:golden_great_pickaxe",
+      "sniffsweapons:iron_great_pickaxe",
+      "sniffsweapons:diamond_great_pickaxe",
+
+      "sniffsweapons:wooden_naginata",
+      "sniffsweapons:stone_naginata",
+      "sniffsweapons:golden_naginata",
+      "sniffsweapons:iron_naginata",
+      "sniffsweapons:diamond_naginata"
+    ]
+  },
+  "sends_telemetry_event": false
+}

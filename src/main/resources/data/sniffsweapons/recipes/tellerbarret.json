@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "F": {
+      "item": "minecraft:feather"
+    },
+    "S": {
+      "item": "sniffsweapons:patterned_linen"
+    },
+    "L": {
+      "item": "minecraft:leather_helmet"
+    }
+  },
+  "pattern": [
+    " F ",
+    "SSS",
+    " L "
+  ],
+  "result": {
+    "item": "sniffsweapons:tellerbarret",
+    "count": 1
+  }
+}

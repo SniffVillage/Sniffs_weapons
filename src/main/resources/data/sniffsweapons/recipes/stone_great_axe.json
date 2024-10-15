@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "minecraft:stone_axe"
+    },
+    "X": {
+      "tag": "minecraft:stone_tool_materials"
+    },
+    "W": {
+      "item": "sniffsweapons:binding_string"
+    }
+  },
+  "pattern": [
+    "XXX",
+    "XW ",
+    "X# "
+  ],
+  "result": {
+    "item": "sniffsweapons:stone_great_axe"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:leather"
+  },
+  "base": {
+    "item": "minecraft:iron_chestplate"
+  },
+  "result": {
+    "item": "sniffsweapons:iron_surcoat"
+  },
+  "template": {
+    "item": "sniffsweapons:surcoat_armor_trim_smithing_template"
+  }
+}
