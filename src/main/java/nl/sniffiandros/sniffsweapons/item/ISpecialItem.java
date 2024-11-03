@@ -2,10 +2,7 @@ package nl.sniffiandros.sniffsweapons.item;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import net.minecraft.client.model.HumanoidModel;
-import net.minecraft.client.particle.Particle;
 import net.minecraft.core.particles.ParticleOptions;
-import net.minecraft.sounds.SoundEvents;
-import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemDisplayContext;

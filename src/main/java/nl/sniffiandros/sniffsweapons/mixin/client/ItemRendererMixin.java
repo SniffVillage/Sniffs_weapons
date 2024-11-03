@@ -2,10 +2,8 @@ package nl.sniffiandros.sniffsweapons.mixin.client;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import net.minecraft.client.Minecraft;
-import net.minecraft.client.model.HumanoidModel;
 import net.minecraft.client.renderer.MultiBufferSource;
 import net.minecraft.client.renderer.entity.ItemRenderer;
-import net.minecraft.client.resources.model.BakedModel;
 import net.minecraft.server.packs.resources.ResourceManagerReloadListener;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.item.ItemDisplayContext;
@@ -26,7 +24,9 @@ public abstract class ItemRendererMixin implements ResourceManagerReloadListener
        float delta = Minecraft.getInstance().getDeltaFrameTime();
 
         if (stack.getItem() instanceof ISpecialItem specialItem && Config.ANIMATIONS.get()) {
-           specialItem.itemPoseStack(poseStack, displayContext, left, entity, stack, delta);
+            if (entity != null) {
+                specialItem.itemPoseStack(poseStack, displayContext, left, entity, stack, delta);
+            }
        }
     }
 }

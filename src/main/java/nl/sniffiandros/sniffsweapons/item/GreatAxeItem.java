@@ -2,11 +2,7 @@ package nl.sniffiandros.sniffsweapons.item;
 
 import net.minecraft.client.model.HumanoidModel;
 import net.minecraft.core.particles.ParticleTypes;
-import net.minecraft.core.particles.SimpleParticleType;
-import net.minecraft.server.level.ServerLevel;
 import net.minecraft.util.Mth;
-import net.minecraft.world.damagesource.DamageSource;
-import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.HumanoidArm;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.player.Player;
@@ -95,6 +91,4 @@ public class GreatAxeItem extends AxeItem implements ISpecialItem {
             }
         }
     }
-
-
 }

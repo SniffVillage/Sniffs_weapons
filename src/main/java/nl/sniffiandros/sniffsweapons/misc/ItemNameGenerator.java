@@ -1,14 +1,10 @@
 package nl.sniffiandros.sniffsweapons.misc;
 
-import net.minecraft.client.gui.components.TextAndImageButton;
 import net.minecraft.network.chat.Component;
 import net.minecraft.util.RandomSource;
 import net.minecraft.world.item.ItemStack;
-import net.minecraftforge.server.command.TextComponentHelper;
 import nl.sniffiandros.sniffsweapons.Config;
-import org.w3c.dom.Text;
 
-import java.awt.*;
 import java.util.ArrayList;
 import java.util.List;
 

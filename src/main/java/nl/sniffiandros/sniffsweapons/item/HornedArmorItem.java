@@ -9,7 +9,6 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.client.extensions.common.IClientItemExtensions;
 import nl.sniffiandros.sniffsweapons.client.model.HornedArmorModel;
-import nl.sniffiandros.sniffsweapons.client.model.StylishArmorModel;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.function.Consumer;
